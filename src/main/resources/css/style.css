@@ -1,0 +1,150 @@
+
+.image-background {
+    -fx-background-image: url("../images/vu53x-8pgk5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.overlay-background {
+    -fx-background-color: rgba(0, 0, 0, 0.55);
+}
+
+.content-box {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.left-list {
+    -fx-padding: 5px;
+    -fx-background-color: rgba(200, 200, 200, 0.7);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+
+.list-view {
+    -fx-background-color: #333333;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.list-cell {
+    -fx-background-color: #444444;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.list-cell:hover {
+    -fx-background-color: #555555;
+    -fx-cursor: hand;
+}
+
+.list-cell:selected {
+    -fx-background-color: #666666;
+}
+
+.list-view .scroll-bar:vertical, .list-view .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+
+.collection-search-image{
+
+}
+
+.collection-search-button {
+    -fx-background-color: rgba(15,15,15,0.25);
+}
+.collection-search-button:hover{
+    -fx-scale-x:1.1;
+    -fx-scale-y:1.1;
+    -fx-cursor:hand;
+}
+.collection-or-search{
+    -fx-alignment: center;
+}
+.music-info {
+    -fx-background-color: rgba(53, 53, 53, 0.7);
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-padding: 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 1);
+    -fx-margin-top: 20px;
+    -fx-margin-bottom: 20px;
+}
+
+#music-info-label-title {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F2ECEC;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 2, 2);
+}
+#music-info-label-artist {
+     -fx-font-size: 35px;
+     -fx-font-weight: bold;
+     -fx-text-fill: #F2ECEC;
+     -fx-effect: dropshadow(three-pass-box, black, 10, 0, 2, 2);
+ }
+#music-info-label-album {
+      -fx-font-size: 20px;
+      -fx-font-weight: bold;
+      -fx-text-fill: #F2ECEC;
+      -fx-effect: dropshadow(three-pass-box, black, 10, 0, 2, 2);
+}
+
+.path-display-button{
+      -fx-font-size:15px;
+      -fx-background-color: rgba(53,53,53,0.1);
+      -fx-text-fill:#F2ECEC;
+      -fx-effect: dropshadow(three-pass-box, black, 10, 0, 2, 2);
+}
+.path-display-button:hover{
+       -fx-cursor:hand;
+}
+.player{
+    -fx-background-color: rgba(53, 53, 53, 0.7);
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+}
+
+.music-info-player-label{
+    -fx-text-fill: #F2ECEC;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 2, 2);
+}
+.player-button {
+    -fx-background-color: rgba(53,53,53,0.1);
+}
+.player-button:hover {
+    -fx-scale-x:1.1;
+    -fx-scale-y:1.1;
+    -fx-cursor:hand;
+}
+.last-next-button {
+    -fx-background-color: rgba(53,53,53,0.1);
+}
+.last-next-button:hover {
+    -fx-scale-x:1.1;
+    -fx-scale-y:1.1;
+    -fx-cursor:hand;
+}
+
+.progress-bar .bar{
+    -fx-padding:1px;
+    -fx-background-insets:0;
+    -fx-background-color: #00C78C;
+    -fx-background-radius: 10;
+}
+.like-button{
+    -fx-background-color: rgba(53,53,53,0.1);
+}
+.like-button:hover {
+    -fx-cursor:hand;
+}
